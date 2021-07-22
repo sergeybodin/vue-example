@@ -4,7 +4,8 @@
       <div><strong>Название:</strong> {{ post.title }}</div>
       <div><strong>Описание:</strong> {{ post.body }}</div>
     </div>
-    <app-button class="post__btn"
+    <app-button
+        class="post__btn"
         @click="$router.push(`/post/${post.id}`)"
     >Открыть</app-button>
     <app-button

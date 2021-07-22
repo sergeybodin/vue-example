@@ -3,7 +3,7 @@ import Main from "@/pages/Main";
 import PostPage from "@/pages/PostPage";
 import PostShow from "@/pages/PostShow";
 import PostPageStore from "@/pages/PostPageStore";
-
+import PostPageCompositionApi from "@/pages/PostPageCompositionApi";
 
 const routes = [
     {
@@ -21,6 +21,10 @@ const routes = [
     {
         path: '/stores',
         component: PostPageStore
+    },
+    {
+        path: '/compostion',
+        component: PostPageCompositionApi
     },
 ];
 
